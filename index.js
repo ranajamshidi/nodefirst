@@ -8,6 +8,7 @@ const { error } = require('console')
 const { enableNodeExtraCACerts } = require('postman-request')
 const req = require('express/lib/request')
 
+console.log('hello')
 const app = express()
 const port = process.env.PORT || 3000
 let i=1
